@@ -26,7 +26,9 @@ jobs:
             who
             sudo rm -rf .git
             cd ..
-            mv scripts lxk
+            sudo \mv scripts lxk
+            echo "# 更新时间⌚️ 
+            > $(date +%Y%m%d%H%M%S)" > README.md
       - name: Commit files
         run: |
           git config --local user.email "action@github.com"
@@ -42,4 +44,4 @@ jobs:
         env:
           GITHUB_TOKEN: ${{ secrets.TOKEN }}
         with:
-          args: result
+          args: scripts
