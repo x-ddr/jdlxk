@@ -24,7 +24,6 @@ jobs:
             docker exec -i jd /bin/bash jup.sh
             cd scripts
             sudo -i
-            who
             sudo rm -rf .git
             cd ..
             sudo \mv scripts lxk
@@ -35,7 +34,7 @@ jobs:
           git config --local user.email "action@github.com"
           git config --local user.name "GitHub Action"
           git add .
-          git commit -m "$(date +%Y%m%d%H%M%S)" -a
+          git commit -m "⌚️$(date +%Y%m%d%H%M%S)" -a
       - name: 'Push changes'
         uses: ad-m/github-push-action@master
         with:

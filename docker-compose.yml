@@ -8,7 +8,7 @@ services:
     network_mode: bridge
     hostname: jd
     volumes:
-      - ./config:/jd/config
+      # - ./config:/jd/config
       # - ./log:/jd/log
       #- ./own:/jd/own
       - ./scripts:/jd/scripts
