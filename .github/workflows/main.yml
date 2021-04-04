@@ -19,7 +19,7 @@ jobs:
       - name: lxk
         timeout-minutes: 350
         run: |
-            sudo \mv -rf lxk ./old/lxk$(date +%Y%m%d%H%M%S)
+            sudo \mv lxk ./old/lxk$(date +%Y%m%d%H%M%S)
             docker-compose up -d
             docker exec -i jd /bin/bash jup.sh
             cd scripts
@@ -27,7 +27,7 @@ jobs:
             who
             sudo rm -rf .git
             cd ..
-            sudo \mv -rf scripts lxk
+            sudo \mv scripts lxk
             echo "# 更新时间⌚️ 
             > $(date +%Y%m%d%H%M%S)" > README.md
       - name: Commit files
