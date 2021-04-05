@@ -28,10 +28,8 @@ jobs:
             sudo rm -rf .git
             cd ..
             sudo \mv scripts lxk
-            echo "# 更新时间⌚️ 
-            > $(date +%Y%m%d%H%M%S)"
-
-            lxk$(date +%Y%m%d%H%M%S) > README.md
+            echo "# 同步时间⌚️ 
+            > $(date +%Y%m%d%H%M%S)" > README.md
           else
             docker-compose up -d
             docker exec -i jd /bin/bash jup.sh
