@@ -14,7 +14,7 @@ Platform:
   linux x64
 
 Trace: 
-  Error: ENOTEMPTY: directory not empty, rmdir '/usr/local/share/.cache/yarn/v6/npm-lodash-4.17.21-679591c564c3bffaae8454cf0b3df370c3d6911c-integrity/node_modules/lodash'
+  Error: https://registry.npm.taobao.org/http2-wrapper/download/http2-wrapper-1.0.3.tgz: ENOENT: no such file or directory, open '/usr/local/share/.cache/yarn/v6/npm-http2-wrapper-1.0.3-b8f55e0c1f25d4ebd08b3b0c2c079f9590800b3d-integrity/node_modules/http2-wrapper/.yarn-tarball.tgz'
 
 npm manifest: 
   {
