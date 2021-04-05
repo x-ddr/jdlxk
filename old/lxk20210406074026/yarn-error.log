@@ -14,7 +14,12 @@ Platform:
   linux x64
 
 Trace: 
-  Error: https://registry.npm.taobao.org/union/download/union-0.5.0.tgz: ENOENT: no such file or directory, open '/usr/local/share/.cache/yarn/v6/npm-union-0.5.0-b2c11be84f60538537b846edb9ba266ba0090075-integrity/node_modules/union/.yarn-tarball.tgz'
+  SyntaxError: /usr/local/share/.cache/yarn/v6/npm-safe-buffer-5.2.1-1eaf9fa9bdb1fdd4ec75f58f9cdb4e6b7827eec6-integrity/node_modules/safe-buffer/package.json: Unexpected end of JSON input
+      at JSON.parse (<anonymous>)
+      at /opt/yarn-v1.22.5/lib/cli.js:1625:59
+      at Generator.next (<anonymous>)
+      at step (/opt/yarn-v1.22.5/lib/cli.js:310:30)
+      at /opt/yarn-v1.22.5/lib/cli.js:321:13
 
 npm manifest: 
   {
