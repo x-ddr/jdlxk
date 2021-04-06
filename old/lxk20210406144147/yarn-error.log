@@ -14,7 +14,7 @@ Platform:
   linux x64
 
 Trace: 
-  Error: https://registry.npm.taobao.org/get-stream/download/get-stream-5.2.0.tgz?cache=0&sync_timestamp=1597056564777&other_urls=https%3A%2F%2Fregistry.npm.taobao.org%2Fget-stream%2Fdownload%2Fget-stream-5.2.0.tgz: ENOENT: no such file or directory, open '/usr/local/share/.cache/yarn/v6/npm-get-stream-5.2.0-4966a1795ee5ace65e706c4b7beb71257d6e22d3-integrity/node_modules/get-stream/.yarn-tarball.tgz'
+  Error: https://registry.npm.taobao.org/object-inspect/download/object-inspect-1.9.0.tgz?cache=0&sync_timestamp=1606804308231&other_urls=https%3A%2F%2Fregistry.npm.taobao.org%2Fobject-inspect%2Fdownload%2Fobject-inspect-1.9.0.tgz: ENOENT: no such file or directory, open '/usr/local/share/.cache/yarn/v6/npm-object-inspect-1.9.0-c90521d74e1127b67266ded3394ad6116986533a-integrity/node_modules/object-inspect/.yarn-tarball.tgz'
 
 npm manifest: 
   {
