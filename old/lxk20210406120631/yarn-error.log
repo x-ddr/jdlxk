@@ -14,7 +14,7 @@ Platform:
   linux x64
 
 Trace: 
-  Error: ENOENT: no such file or directory, open '/usr/local/share/.cache/yarn/v6/npm-tough-cookie-4.0.0-d822234eeca882f991f0f908824ad2622ddbece4-integrity/node_modules/tough-cookie/.yarn-metadata.json'
+  Error: https://registry.npm.taobao.org/lodash/download/lodash-4.17.21.tgz: ENOENT: no such file or directory, open '/usr/local/share/.cache/yarn/v6/npm-lodash-4.17.21-679591c564c3bffaae8454cf0b3df370c3d6911c-integrity/node_modules/lodash/.yarn-tarball.tgz'
 
 npm manifest: 
   {
