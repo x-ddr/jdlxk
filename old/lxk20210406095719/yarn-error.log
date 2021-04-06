@@ -14,7 +14,7 @@ Platform:
   linux x64
 
 Trace: 
-  Error: https://registry.npm.taobao.org/mime-db/download/mime-db-1.47.0.tgz: ENOENT: no such file or directory, open '/usr/local/share/.cache/yarn/v6/npm-mime-db-1.47.0-8cb313e59965d3c05cfbf898915a267af46a335c-integrity/node_modules/mime-db/.yarn-tarball.tgz'
+  Error: https://registry.npm.taobao.org/mimic-response/download/mimic-response-3.1.0.tgz: ENOENT: no such file or directory, open '/usr/local/share/.cache/yarn/v6/npm-mimic-response-3.1.0-2d1d59af9c1b129815accc2c46a022a5ce1fa3c9-integrity/node_modules/mimic-response/.yarn-tarball.tgz'
 
 npm manifest: 
   {
