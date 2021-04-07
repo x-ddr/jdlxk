@@ -1,5 +1,5 @@
 Arguments: 
-  /usr/local/bin/node /opt/yarn-v1.22.5/bin/yarn.js install
+  /usr/local/bin/node /opt/yarn-v1.22.5/bin/yarn.js install --registry=https://registry.npm.taobao.org
 
 PATH: 
   /usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin
@@ -14,7 +14,7 @@ Platform:
   linux x64
 
 Trace: 
-  Error: ENOENT: no such file or directory, open '/usr/local/share/.cache/yarn/v6/npm-through-2.3.8-0dd4c9ffaabc357960b1b724115d7e0e86a2e1f5-integrity/node_modules/through/.yarn-metadata.json'
+  Error: ENOENT: no such file or directory, open '/usr/local/share/.cache/yarn/v6/npm-universalify-0.1.2-b646f69be3942dabcecc9d6639c80dc105efaa66-integrity/node_modules/universalify/.yarn-metadata.json'
 
 npm manifest: 
   {
