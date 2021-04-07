@@ -14,7 +14,7 @@ Platform:
   linux x64
 
 Trace: 
-  Error: ENOENT: no such file or directory, open '/usr/local/share/.cache/yarn/v6/npm-normalize-url-2.0.1-835a9da1551fa26f70e92329069a23aa6574d7e6-integrity/node_modules/normalize-url/.yarn-metadata.json'
+  Error: https://registry.npm.taobao.org/combined-stream/download/combined-stream-1.0.8.tgz: ENOENT: no such file or directory, open '/usr/local/share/.cache/yarn/v6/npm-combined-stream-1.0.8-c3d45a8b34fd730631a110a8a2520682b31d5a7f-integrity/node_modules/combined-stream/.yarn-tarball.tgz'
 
 npm manifest: 
   {
