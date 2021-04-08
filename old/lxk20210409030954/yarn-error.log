@@ -14,7 +14,7 @@ Platform:
   linux x64
 
 Trace: 
-  Error: https://registry.npm.taobao.org/file-type/download/file-type-6.2.0.tgz?cache=0&sync_timestamp=1615052442971&other_urls=https%3A%2F%2Fregistry.npm.taobao.org%2Ffile-type%2Fdownload%2Ffile-type-6.2.0.tgz: ENOENT: no such file or directory, open '/usr/local/share/.cache/yarn/v6/npm-file-type-6.2.0-e50cd75d356ffed4e306dc4f5bcf52a79903a919-integrity/node_modules/file-type/.yarn-tarball.tgz'
+  Error: https://registry.npm.taobao.org/buffer-alloc/download/buffer-alloc-1.2.0.tgz: ENOENT: no such file or directory, open '/usr/local/share/.cache/yarn/v6/npm-buffer-alloc-1.2.0-890dd90d923a873e08e10e5fd51a57e5b7cce0ec-integrity/node_modules/buffer-alloc/.yarn-tarball.tgz'
 
 npm manifest: 
   {
