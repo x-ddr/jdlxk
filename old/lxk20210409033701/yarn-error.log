@@ -14,7 +14,7 @@ Platform:
   linux x64
 
 Trace: 
-  Error: ENOENT: no such file or directory, scandir '/usr/local/share/.cache/yarn/v6/npm-minimist-1.2.5-67d66014b66a6a8aaa0c083c5fd58df4e4e97602-integrity/node_modules/minimist'
+  Error: https://registry.npm.taobao.org/file-type/download/file-type-6.2.0.tgz?cache=0&sync_timestamp=1615052442971&other_urls=https%3A%2F%2Fregistry.npm.taobao.org%2Ffile-type%2Fdownload%2Ffile-type-6.2.0.tgz: ENOENT: no such file or directory, open '/usr/local/share/.cache/yarn/v6/npm-file-type-6.2.0-e50cd75d356ffed4e306dc4f5bcf52a79903a919-integrity/node_modules/file-type/.yarn-tarball.tgz'
 
 npm manifest: 
   {
