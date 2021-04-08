@@ -14,7 +14,7 @@ Platform:
   linux x64
 
 Trace: 
-  Error: https://registry.npm.taobao.org/isarray/download/isarray-1.0.0.tgz: ENOENT: no such file or directory, open '/usr/local/share/.cache/yarn/v6/npm-isarray-1.0.0-bb935d48582cba168c06834957a54a3e07124f11-integrity/node_modules/isarray/.yarn-tarball.tgz'
+  Error: ENOENT: no such file or directory, open '/usr/local/share/.cache/yarn/v6/npm-normalize-url-2.0.1-835a9da1551fa26f70e92329069a23aa6574d7e6-integrity/node_modules/normalize-url/.yarn-metadata.json'
 
 npm manifest: 
   {
