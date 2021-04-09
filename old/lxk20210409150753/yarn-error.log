@@ -14,7 +14,7 @@ Platform:
   linux x64
 
 Trace: 
-  Error: https://registry.npm.taobao.org/timed-out/download/timed-out-4.0.1.tgz: ENOENT: no such file or directory, open '/usr/local/share/.cache/yarn/v6/npm-timed-out-4.0.1-f32eacac5a175bea25d7fab565ab3ed8741ef56f-integrity/node_modules/timed-out/.yarn-tarball.tgz'
+  Error: https://registry.npm.taobao.org/get-stream/download/get-stream-5.2.0.tgz?cache=0&sync_timestamp=1597056564777&other_urls=https%3A%2F%2Fregistry.npm.taobao.org%2Fget-stream%2Fdownload%2Fget-stream-5.2.0.tgz: ENOENT: no such file or directory, open '/usr/local/share/.cache/yarn/v6/npm-get-stream-5.2.0-4966a1795ee5ace65e706c4b7beb71257d6e22d3-integrity/node_modules/get-stream/.yarn-tarball.tgz'
 
 npm manifest: 
   {
