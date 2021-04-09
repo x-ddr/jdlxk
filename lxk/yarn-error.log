@@ -14,7 +14,7 @@ Platform:
   linux x64
 
 Trace: 
-  Error: https://registry.npm.taobao.org/clone-response/download/clone-response-1.0.2.tgz: ENOENT: no such file or directory, open '/usr/local/share/.cache/yarn/v6/npm-clone-response-1.0.2-d1dc973920314df67fbeb94223b4ee350239e96b-integrity/node_modules/clone-response/.yarn-tarball.tgz'
+  Error: https://registry.npm.taobao.org/safe-buffer/download/safe-buffer-5.2.1.tgz: ENOENT: no such file or directory, open '/usr/local/share/.cache/yarn/v6/npm-safe-buffer-5.2.1-1eaf9fa9bdb1fdd4ec75f58f9cdb4e6b7827eec6-integrity/node_modules/safe-buffer/.yarn-tarball.tgz'
 
 npm manifest: 
   {
