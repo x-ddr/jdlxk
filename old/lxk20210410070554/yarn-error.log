@@ -14,7 +14,7 @@ Platform:
   linux x64
 
 Trace: 
-  Error: https://registry.npm.taobao.org/sshpk/download/sshpk-1.16.1.tgz: ENOENT: no such file or directory, open '/usr/local/share/.cache/yarn/v6/npm-sshpk-1.16.1-fb661c0bef29b39db40769ee39fa70093d6f6877-integrity/node_modules/sshpk/.yarn-tarball.tgz'
+  Error: https://registry.npm.taobao.org/decode-uri-component/download/decode-uri-component-0.2.0.tgz: ENOENT: no such file or directory, open '/usr/local/share/.cache/yarn/v6/npm-decode-uri-component-0.2.0-eb3913333458775cb84cd1a1fae062106bb87545-integrity/node_modules/decode-uri-component/.yarn-tarball.tgz'
 
 npm manifest: 
   {
