@@ -14,7 +14,7 @@ Platform:
   linux x64
 
 Trace: 
-  Error: https://registry.npm.taobao.org/mimic-response/download/mimic-response-3.1.0.tgz: ENOENT: no such file or directory, open '/usr/local/share/.cache/yarn/v6/npm-mimic-response-3.1.0-2d1d59af9c1b129815accc2c46a022a5ce1fa3c9-integrity/node_modules/mimic-response/.yarn-tarball.tgz'
+  Error: https://registry.npm.taobao.org/opener/download/opener-1.5.2.tgz?cache=0&sync_timestamp=1598732797840&other_urls=https%3A%2F%2Fregistry.npm.taobao.org%2Fopener%2Fdownload%2Fopener-1.5.2.tgz: ENOENT: no such file or directory, open '/usr/local/share/.cache/yarn/v6/npm-opener-1.5.2-5d37e1f35077b9dcac4301372271afdeb2a13598-integrity/node_modules/opener/.yarn-tarball.tgz'
 
 npm manifest: 
   {
