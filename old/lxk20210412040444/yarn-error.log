@@ -14,7 +14,7 @@ Platform:
   linux x64
 
 Trace: 
-  Error: https://registry.npm.taobao.org/decompress-targz/download/decompress-targz-4.1.1.tgz: ENOENT: no such file or directory, open '/usr/local/share/.cache/yarn/v6/npm-decompress-targz-4.1.1-c09bc35c4d11f3de09f2d2da53e9de23e7ce1eee-integrity/node_modules/decompress-targz/.yarn-tarball.tgz'
+  Error: ENOTEMPTY: directory not empty, rmdir '/usr/local/share/.cache/yarn/v6/npm-lodash-4.17.21-679591c564c3bffaae8454cf0b3df370c3d6911c-integrity/node_modules/lodash/fp'
 
 npm manifest: 
   {
