@@ -380,11 +380,6 @@ ecstatic@^3.3.2:
   version "3.3.2"
   resolved "https://registry.npm.taobao.org/ecstatic/download/ecstatic-3.3.2.tgz#6d1dd49814d00594682c652adb66076a69d46c48"
   integrity sha1-bR3UmBTQBZRoLGUq22YHamnUbEg=
-  dependencies:
-    he "^1.1.1"
-    mime "^1.6.0"
-    minimist "^1.1.0"
-    url-join "^2.0.5"
 
 end-of-stream@^1.0.0, end-of-stream@^1.1.0:
   version "1.4.4"
