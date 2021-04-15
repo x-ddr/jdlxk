@@ -14,7 +14,12 @@ Platform:
   linux x64
 
 Trace: 
-  Error: https://registry.npm.taobao.org/has/download/has-1.0.3.tgz: ENOENT: no such file or directory, open '/usr/local/share/.cache/yarn/v6/npm-has-1.0.3-722d7cbfc1f6aa8241f16dd814e011e1f41e8796-integrity/node_modules/has/.yarn-tarball.tgz'
+  SyntaxError: /usr/local/share/.cache/yarn/v6/npm-http-server-0.12.3-ba0471d0ecc425886616cb35c4faf279140a0d37-integrity/node_modules/http-server/package.json: Unexpected end of JSON input
+      at JSON.parse (<anonymous>)
+      at /opt/yarn-v1.22.5/lib/cli.js:1625:59
+      at Generator.next (<anonymous>)
+      at step (/opt/yarn-v1.22.5/lib/cli.js:310:30)
+      at /opt/yarn-v1.22.5/lib/cli.js:321:13
 
 npm manifest: 
   {
