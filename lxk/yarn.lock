@@ -43,7 +43,7 @@
 
 "@types/node@*":
   version "14.14.41"
-  resolved "https://registry.npm.taobao.org/@types/node/download/@types/node-14.14.41.tgz?cache=0&sync_timestamp=1618508708552&other_urls=https%3A%2F%2Fregistry.npm.taobao.org%2F%40types%2Fnode%2Fdownload%2F%40types%2Fnode-14.14.41.tgz#d0b939d94c1d7bd53d04824af45f1139b8c45615"
+  resolved "https://registry.npm.taobao.org/@types/node/download/@types/node-14.14.41.tgz?cache=0&sync_timestamp=1618543947232&other_urls=https%3A%2F%2Fregistry.npm.taobao.org%2F%40types%2Fnode%2Fdownload%2F%40types%2Fnode-14.14.41.tgz#d0b939d94c1d7bd53d04824af45f1139b8c45615"
   integrity sha1-0Lk52Uwde9U9BIJK9F8RObjEVhU=
 
 "@types/responselike@*", "@types/responselike@^1.0.0":
@@ -261,8 +261,6 @@ debug@^3.1.1:
   version "3.2.7"
   resolved "https://registry.npm.taobao.org/debug/download/debug-3.2.7.tgz?cache=0&sync_timestamp=1607566782124&other_urls=https%3A%2F%2Fregistry.npm.taobao.org%2Fdebug%2Fdownload%2Fdebug-3.2.7.tgz#72580b7e9145fb39b6676f9c5e5fb100b934179a"
   integrity sha1-clgLfpFF+zm2Z2+cXl+xALk0F5o=
-  dependencies:
-    ms "^2.1.1"
 
 decode-uri-component@^0.2.0:
   version "0.2.0"
