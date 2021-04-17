@@ -1334,8 +1334,6 @@ union@~0.5.0:
   version "0.5.0"
   resolved "https://registry.npm.taobao.org/union/download/union-0.5.0.tgz#b2c11be84f60538537b846edb9ba266ba0090075"
   integrity sha1-ssEb6E9gU4U3uEbtuboma6AJAHU=
-  dependencies:
-    qs "^6.4.0"
 
 universalify@^0.1.2:
   version "0.1.2"
