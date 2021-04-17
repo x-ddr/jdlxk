@@ -14,7 +14,7 @@ Platform:
   linux x64
 
 Trace: 
-  Error: https://registry.npm.taobao.org/object-inspect/download/object-inspect-1.10.0.tgz?cache=0&sync_timestamp=1618691035249&other_urls=https%3A%2F%2Fregistry.npm.taobao.org%2Fobject-inspect%2Fdownload%2Fobject-inspect-1.10.0.tgz: ENOENT: no such file or directory, open '/usr/local/share/.cache/yarn/v6/npm-object-inspect-1.10.0-b7fbe0ff392e09ac138f9d0552920f0c5697a4d1-integrity/node_modules/object-inspect/.yarn-tarball.tgz'
+  Error: https://registry.npm.taobao.org/mimic-response/download/mimic-response-1.0.1.tgz: ENOENT: no such file or directory, open '/usr/local/share/.cache/yarn/v6/npm-mimic-response-1.0.1-4923538878eef42063cb8a3e3b0798781487ab1b-integrity/node_modules/mimic-response/.yarn-tarball.tgz'
 
 npm manifest: 
   {
