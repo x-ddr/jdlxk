@@ -14,7 +14,7 @@ Platform:
   linux x64
 
 Trace: 
-  Error: https://registry.npm.taobao.org/side-channel/download/side-channel-1.0.4.tgz: ENOENT: no such file or directory, open '/usr/local/share/.cache/yarn/v6/npm-side-channel-1.0.4-efce5c8fdc104ee751b25c58d4290011fa5ea2cf-integrity/node_modules/side-channel/.yarn-tarball.tgz'
+  Error: https://registry.npm.taobao.org/is-object/download/is-object-1.0.2.tgz: ENOENT: no such file or directory, open '/usr/local/share/.cache/yarn/v6/npm-is-object-1.0.2-a56552e1c665c9e950b4a025461da87e72f86fcf-integrity/node_modules/is-object/.yarn-tarball.tgz'
 
 npm manifest: 
   {
