@@ -14,7 +14,7 @@ Platform:
   linux x64
 
 Trace: 
-  Error: ENOENT: no such file or directory, scandir '/usr/local/share/.cache/yarn/v6/npm-unbzip2-stream-1.4.3-b0da04c4371311df771cdc215e87f2130991ace7-integrity/node_modules/unbzip2-stream'
+  Error: https://registry.npm.taobao.org/side-channel/download/side-channel-1.0.4.tgz: ENOENT: no such file or directory, open '/usr/local/share/.cache/yarn/v6/npm-side-channel-1.0.4-efce5c8fdc104ee751b25c58d4290011fa5ea2cf-integrity/node_modules/side-channel/.yarn-tarball.tgz'
 
 npm manifest: 
   {
