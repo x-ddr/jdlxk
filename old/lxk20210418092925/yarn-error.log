@@ -14,7 +14,7 @@ Platform:
   linux x64
 
 Trace: 
-  Error: https://registry.npm.taobao.org/http2-wrapper/download/http2-wrapper-1.0.3.tgz?cache=0&sync_timestamp=1618171510269&other_urls=https%3A%2F%2Fregistry.npm.taobao.org%2Fhttp2-wrapper%2Fdownload%2Fhttp2-wrapper-1.0.3.tgz: ENOENT: no such file or directory, open '/usr/local/share/.cache/yarn/v6/npm-http2-wrapper-1.0.3-b8f55e0c1f25d4ebd08b3b0c2c079f9590800b3d-integrity/node_modules/http2-wrapper/.yarn-tarball.tgz'
+  Error: https://registry.npm.taobao.org/debug/download/debug-3.2.7.tgz?cache=0&sync_timestamp=1607566782124&other_urls=https%3A%2F%2Fregistry.npm.taobao.org%2Fdebug%2Fdownload%2Fdebug-3.2.7.tgz: ENOENT: no such file or directory, open '/usr/local/share/.cache/yarn/v6/npm-debug-3.2.7-72580b7e9145fb39b6676f9c5e5fb100b934179a-integrity/node_modules/debug/.yarn-tarball.tgz'
 
 npm manifest: 
   {
