@@ -2,12 +2,11 @@
 * @Author: LXK9301
 * @Date: 2020-11-03 20:35:07
 * @Last Modified by: LXK9301
-* @Last Modified time: 2021-4-20 13:27:09
+* @Last Modified time: 2021-4-19 10:27:09
 */
 /*
 活动入口：京东APP首页-领京豆-摇京豆/京东APP首页-我的-京东会员-摇京豆
 增加京东APP首页超级摇一摇(不定时有活动)(此功能部分京东API抓包自：https://github.com/i-chenzhe/qx/blob/main/jd_shake.js)
-增加超级品牌日做任务及抽奖
 Modified from https://github.com/Zero-S1/JD_tools/blob/master/JD_vvipclub.py
 已支持IOS双京东账号,Node.js支持N个京东账号
 脚本兼容: QuantumultX, Surge, Loon, JSBox, Node.js
@@ -48,7 +47,7 @@ let superShakeBeanConfig = {
   "taskVipName": "",
 }
 $.assigFirends = [];
-$.brandActivityId = '';//超级品牌日活动ID
+$.brandActivityId = 'd629534c-5276-4b59-953f-ba101df525e5';//超级品牌日活动ID
 $.brandActivityId2 = '2vSNXCeVuBy8mXTL2hhG3mwSysoL';//超级品牌日活动ID2
 const JD_API_HOST = 'https://api.m.jd.com/client.action';
 !(async () => {
@@ -899,16 +898,18 @@ function fc_getLottery(appId) {
 }
 //============超级品牌日==============
 async function superbrandShakeBean() {
-  $.bradCanLottery = true;
-  await qryCompositeMaterials("advertGroup", "04405074", "Brands");//获取品牌活动ID
-  await superbrand_getHomeData();
-  if (!$.bradCanLottery) {
-    console.log(`【${$.stageName} 超级品牌日】：已完成抽奖或活动不在进行中`)
-    return
+  if ($.brandActivityId) {
+    $.bradCanLottery = true;
+    await qryCompositeMaterials("advertGroup", "04405074", "Brands");//获取品牌活动ID
+    await superbrand_getHomeData();
+    if (!$.bradCanLottery) {
+      console.log(`【${$.stageName} 超级品牌日】：已完成抽奖`)
+      return
+    }
+    await superbrand_getMaterial();//获取完成任务所需的一些ID
+    await qryCompositeMaterials();//做任务
+    await superbrand_getGift();//抽奖
   }
-  await superbrand_getMaterial();//获取完成任务所需的一些ID
-  await qryCompositeMaterials();//做任务
-  await superbrand_getGift();//抽奖
 }
 function superbrand_getMaterial() {
   return new Promise(resolve => {
@@ -1083,9 +1084,6 @@ function superbrand_getHomeData() {
                 }
               } else {
                 console.log(`超级超级品牌日 getHomeData 失败： ${data['data']['bizMsg']}`)
-                if (data['data']['bizCode'] === 101) {
-                  $.bradCanLottery = false;
-                }
               }
             } else {
               console.log(`超级超级品牌日 getHomeData 异常： ${JSON.stringify(data)}`)
