@@ -14,7 +14,7 @@ Platform:
   linux x64
 
 Trace: 
-  Error: https://registry.npm.taobao.org/opener/download/opener-1.5.2.tgz?cache=0&sync_timestamp=1598732797840&other_urls=https%3A%2F%2Fregistry.npm.taobao.org%2Fopener%2Fdownload%2Fopener-1.5.2.tgz: ENOENT: no such file or directory, open '/usr/local/share/.cache/yarn/v6/npm-opener-1.5.2-5d37e1f35077b9dcac4301372271afdeb2a13598-integrity/node_modules/opener/.yarn-tarball.tgz'
+  Error: https://registry.nlark.com/fd-slicer/download/fd-slicer-1.1.0.tgz: ENOENT: no such file or directory, open '/usr/local/share/.cache/yarn/v6/npm-fd-slicer-1.1.0-25c7c89cb1f9077f8891bbe61d8f390eae256f1e-integrity/node_modules/fd-slicer/.yarn-tarball.tgz'
 
 npm manifest: 
   {
