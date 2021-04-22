@@ -14,7 +14,7 @@ Platform:
   linux x64
 
 Trace: 
-  Error: https://registry.npm.taobao.org/download/download/download-8.0.0.tgz: ENOENT: no such file or directory, open '/usr/local/share/.cache/yarn/v6/npm-download-8.0.0-afc0b309730811731aae9f5371c9f46be73e51b1-integrity/node_modules/download/.yarn-tarball.tgz'
+  Error: ENOENT: no such file or directory, open '/usr/local/share/.cache/yarn/v6/npm-lodash-4.17.21-679591c564c3bffaae8454cf0b3df370c3d6911c-integrity/node_modules/lodash/.yarn-metadata.json'
 
 npm manifest: 
   {
