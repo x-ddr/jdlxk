@@ -14,7 +14,12 @@ Platform:
   linux x64
 
 Trace: 
-  Error: https://registry.nlark.com/xtend/download/xtend-4.0.2.tgz: ENOENT: no such file or directory, open '/usr/local/share/.cache/yarn/v6/npm-xtend-4.0.2-bb72779f5fa465186b1f438f674fa347fdb5db54-integrity/node_modules/xtend/.yarn-tarball.tgz'
+  SyntaxError: /usr/local/share/.cache/yarn/v6/npm-end-of-stream-1.4.4-5ae64a5f45057baf3626ec14da0ca5e4b2431eb0-integrity/node_modules/end-of-stream/package.json: Unexpected end of JSON input
+      at JSON.parse (<anonymous>)
+      at /opt/yarn-v1.22.5/lib/cli.js:1625:59
+      at Generator.next (<anonymous>)
+      at step (/opt/yarn-v1.22.5/lib/cli.js:310:30)
+      at /opt/yarn-v1.22.5/lib/cli.js:321:13
 
 npm manifest: 
   {
