@@ -14,7 +14,7 @@ Platform:
   linux x64
 
 Trace: 
-  Error: https://registry.npm.taobao.org/p-event/download/p-event-2.3.1.tgz: ENOENT: no such file or directory, open '/usr/local/share/.cache/yarn/v6/npm-p-event-2.3.1-596279ef169ab2c3e0cae88c1cfbb08079993ef6-integrity/node_modules/p-event/.yarn-tarball.tgz'
+  Error: https://registry.nlark.com/eventemitter3/download/eventemitter3-4.0.7.tgz: ENOENT: no such file or directory, open '/usr/local/share/.cache/yarn/v6/npm-eventemitter3-4.0.7-2de9b68f6528d5644ef5c59526a1b4a07306169f-integrity/node_modules/eventemitter3/.yarn-tarball.tgz'
 
 npm manifest: 
   {
