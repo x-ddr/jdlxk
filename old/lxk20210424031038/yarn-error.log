@@ -14,7 +14,7 @@ Platform:
   linux x64
 
 Trace: 
-  Error: https://registry.npm.taobao.org/readable-stream/download/readable-stream-2.3.7.tgz: ENOENT: no such file or directory, open '/usr/local/share/.cache/yarn/v6/npm-readable-stream-2.3.7-1eca1cf711aef814c04f62252a36a62f6cb23b57-integrity/node_modules/readable-stream/.yarn-tarball.tgz'
+  Error: https://registry.npm.taobao.org/p-event/download/p-event-2.3.1.tgz: ENOENT: no such file or directory, open '/usr/local/share/.cache/yarn/v6/npm-p-event-2.3.1-596279ef169ab2c3e0cae88c1cfbb08079993ef6-integrity/node_modules/p-event/.yarn-tarball.tgz'
 
 npm manifest: 
   {
