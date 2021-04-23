@@ -14,7 +14,7 @@ Platform:
   linux x64
 
 Trace: 
-  Error: https://registry.npm.taobao.org/async/download/async-2.6.3.tgz: ENOENT: no such file or directory, open '/usr/local/share/.cache/yarn/v6/npm-async-2.6.3-d72625e2344a3656e3a3ad4fa749fa83299d82ff-integrity/node_modules/async/.yarn-tarball.tgz'
+  Error: https://registry.npm.taobao.org/qs/download/qs-6.10.1.tgz: ENOENT: no such file or directory, open '/usr/local/share/.cache/yarn/v6/npm-qs-6.10.1-4931482fa8d647a5aab799c5271d2133b981fb6a-integrity/node_modules/qs/.yarn-tarball.tgz'
 
 npm manifest: 
   {
