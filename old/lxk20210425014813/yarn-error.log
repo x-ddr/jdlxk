@@ -1,5 +1,5 @@
 Arguments: 
-  /usr/local/bin/node /opt/yarn-v1.22.5/bin/yarn.js install
+  /usr/local/bin/node /opt/yarn-v1.22.5/bin/yarn.js install --registry=https://registry.npm.taobao.org
 
 PATH: 
   /usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin
@@ -14,7 +14,7 @@ Platform:
   linux x64
 
 Trace: 
-  Error: https://registry.yarnpkg.com/crypto-js/-/crypto-js-4.0.0.tgz: ENOENT: no such file or directory, open '/usr/local/share/.cache/yarn/v6/npm-crypto-js-4.0.0-2904ab2677a9d042856a2ea2ef80de92e4a36dcc-integrity/node_modules/crypto-js/.yarn-tarball.tgz'
+  Error: https://registry.npm.taobao.org/crypto-js/download/crypto-js-4.0.0.tgz: ENOENT: no such file or directory, open '/usr/local/share/.cache/yarn/v6/npm-crypto-js-4.0.0-2904ab2677a9d042856a2ea2ef80de92e4a36dcc-integrity/node_modules/crypto-js/.yarn-tarball.tgz'
 
 npm manifest: 
   {
