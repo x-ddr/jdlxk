@@ -14,7 +14,7 @@ Platform:
   linux x64
 
 Trace: 
-  Error: https://registry.npm.taobao.org/download/download/download-8.0.0.tgz: ENOENT: no such file or directory, open '/usr/local/share/.cache/yarn/v6/npm-download-8.0.0-afc0b309730811731aae9f5371c9f46be73e51b1-integrity/node_modules/download/.yarn-tarball.tgz'
+  Error: https://registry.nlark.com/@types/keyv/download/@types/keyv-3.1.1.tgz: ENOENT: no such file or directory, open '/usr/local/share/.cache/yarn/v6/npm-@types-keyv-3.1.1-e45a45324fca9dab716ab1230ee249c9fb52cfa7-integrity/node_modules/@types/keyv/.yarn-tarball.tgz'
 
 npm manifest: 
   {
