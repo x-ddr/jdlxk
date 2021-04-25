@@ -38,8 +38,6 @@
   version "3.1.1"
   resolved "https://registry.nlark.com/@types/keyv/download/@types/keyv-3.1.1.tgz#e45a45324fca9dab716ab1230ee249c9fb52cfa7"
   integrity sha1-5FpFMk/KnatxarEjDuJJyftSz6c=
-  dependencies:
-    "@types/node" "*"
 
 "@types/node@*":
   version "14.14.41"
@@ -830,7 +828,7 @@ keyv@^4.0.0:
 
 lodash@^4.17.14:
   version "4.17.21"
-  resolved "https://registry.npm.taobao.org/lodash/download/lodash-4.17.21.tgz#679591c564c3bffaae8454cf0b3df370c3d6911c"
+  resolved "https://registry.nlark.com/lodash/download/lodash-4.17.21.tgz#679591c564c3bffaae8454cf0b3df370c3d6911c"
   integrity sha1-Z5WRxWTDv/quhFTPCz3zcMPWkRw=
 
 lowercase-keys@1.0.0:
