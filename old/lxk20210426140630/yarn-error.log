@@ -14,7 +14,16 @@ Platform:
   linux x64
 
 Trace: 
-  Error: ENOENT: no such file or directory, open '/usr/local/share/.cache/yarn/v6/npm-@sindresorhus-is-4.0.1-d26729db850fa327b7cacc5522252194404226f5-integrity/node_modules/@sindresorhus/is/.yarn-metadata.json'
+  Error: https://registry.nlark.com/make-dir/download/make-dir-2.1.0.tgz: ESOCKETTIMEDOUT
+      at ClientRequest.<anonymous> (/opt/yarn-v1.22.5/lib/cli.js:141376:19)
+      at Object.onceWrapper (events.js:421:28)
+      at ClientRequest.emit (events.js:315:20)
+      at TLSSocket.emitRequestTimeout (_http_client.js:784:9)
+      at Object.onceWrapper (events.js:421:28)
+      at TLSSocket.emit (events.js:327:22)
+      at TLSSocket.Socket._onTimeout (net.js:483:8)
+      at listOnTimeout (internal/timers.js:554:17)
+      at processTimers (internal/timers.js:497:7)
 
 npm manifest: 
   {
