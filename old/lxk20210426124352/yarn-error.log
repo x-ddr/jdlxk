@@ -14,7 +14,7 @@ Platform:
   linux x64
 
 Trace: 
-  Error: ENOENT: no such file or directory, chmod '/jd/scripts/node_modules/http-signature/node_modules/.bin/sshpk-verify'
+  Error: ENOENT: no such file or directory, open '/usr/local/share/.cache/yarn/v6/npm-lodash-4.17.21-679591c564c3bffaae8454cf0b3df370c3d6911c-integrity/node_modules/lodash/.yarn-metadata.json'
 
 npm manifest: 
   {
