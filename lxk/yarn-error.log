@@ -14,7 +14,7 @@ Platform:
   linux x64
 
 Trace: 
-  Error: https://registry.npm.taobao.org/crypto-js/download/crypto-js-4.0.0.tgz: ENOENT: no such file or directory, open '/usr/local/share/.cache/yarn/v6/npm-crypto-js-4.0.0-2904ab2677a9d042856a2ea2ef80de92e4a36dcc-integrity/node_modules/crypto-js/.yarn-tarball.tgz'
+  Error: https://registry.npm.taobao.org/mime-types/download/mime-types-2.1.30.tgz: ENOENT: no such file or directory, open '/usr/local/share/.cache/yarn/v6/npm-mime-types-2.1.30-6e7be8b4c479825f85ed6326695db73f9305d62d-integrity/node_modules/mime-types/.yarn-tarball.tgz'
 
 npm manifest: 
   {
